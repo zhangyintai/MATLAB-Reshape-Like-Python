@@ -13,6 +13,7 @@ It will return the reshaped array. Computation time is propotion to the dimensio
 ## Examples
 
 >> a = 1:6;
+>> 
 >> b = RESHAPE(a, [2,3])
 
 b =
@@ -56,12 +57,15 @@ a =
 
 The array reshapes like in matlab as it is in python, except the indices or matlab start with 1 while python start with 0.
 >>> import numpy as np
+>>> 
 >>> a = np.linspace(1, 6, 6)
+>>> 
 >>> b = a.reshape(2,3)
 >>> b
 array([[1., 2., 3.],
        [4., 5., 6.]])
 >>> b = a.reshape(2,1,3)
+>>> 
 >>> b
 array([[[1., 2., 3.]],
 
@@ -76,6 +80,7 @@ array([[1.],
 array([[3.],
        [6.]])
 >>> b = a.reshape(2,3,1)
+>>> 
 >>> b
 array([[[1.],
         [2.],
