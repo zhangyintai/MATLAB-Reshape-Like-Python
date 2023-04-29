@@ -11,7 +11,8 @@ The shape have to be compatable.
 It will return the reshaped array. Computation time is propotion to the dimensions of the array.
 
 ## Examples
-
+In MATLAB
+```
 >> a = 1:6;
 >> 
 >> b = RESHAPE(a, [2,3])
@@ -54,6 +55,7 @@ a =
      1     2     3     4     5     6
 
 >> 
+```
 
 The array reshapes like in matlab as it is in python, except the indices or matlab start with 1 while python start with 0.
 ```
