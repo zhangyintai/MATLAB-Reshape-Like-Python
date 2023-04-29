@@ -56,39 +56,29 @@ a =
 >> 
 
 The array reshapes like in matlab as it is in python, except the indices or matlab start with 1 while python start with 0.
+'''
 >>> import numpy as np
->>> 
 >>> a = np.linspace(1, 6, 6)
->>> 
 >>> b = a.reshape(2,3)
->>> 
 >>> b
->>> 
 array([[1., 2., 3.],
        [4., 5., 6.]])
 >>> b = a.reshape(2,1,3)
->>> 
 >>> b
->>> 
 array([[[1., 2., 3.]],
 
        [[4., 5., 6.]]])
 >>> b[:,:,1]
->>> 
 array([[2.],
        [5.]])
 >>> b[:,:,0]
->>> 
 array([[1.],
        [4.]])
 >>> b[:,:,2]
->>> 
 array([[3.],
        [6.]])
 >>> b = a.reshape(2,3,1)
->>> 
 >>> b
->>> 
 array([[[1.],
         [2.],
         [3.]],
@@ -97,12 +87,10 @@ array([[[1.],
         [5.],
         [6.]]])
 >>> b[:,:,0]
->>> 
 array([[1., 2., 3.],
        [4., 5., 6.]])
 >>> a = b.reshape(1, 6)
->>> 
 >>> a
->>> 
 array([[1., 2., 3., 4., 5., 6.]])
->>>
+
+'''
