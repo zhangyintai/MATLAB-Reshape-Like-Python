@@ -1,4 +1,4 @@
-# MATLABReshapeLikeNumpy
+# MATLABReshapeLikePython
 Reshape arrays row-wisely like python.
 
 RESHAPE(A, new_size)
