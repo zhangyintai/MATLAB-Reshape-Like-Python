@@ -57,7 +57,7 @@ a =
 >> 
 ```
 
-The array reshapes like in matlab as it is in python, except the indices or matlab start with 1 while indices of python start with 0.
+The array is reshaped in matlab as in python, except the indices of matlab start with 1 while indices of python start with 0.
 ```
 >>> import numpy as np
 >>> a = np.linspace(1, 6, 6)
