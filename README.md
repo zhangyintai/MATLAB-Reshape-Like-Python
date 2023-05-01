@@ -8,7 +8,7 @@ A is an array
 new_size is an array represents the shape of the new n-dimensional matrix. [new_size_1, new_size_2, ..., new_size_n]
 The shape have to be compatable.
 
-It will return the reshaped array. The computation time is propotional to the dimensions of the array.
+It will return the reshaped array. The computation time is propotional to the number of indices of the tensor, not the number of the elements.
 
 ## Examples
 In MATLAB
